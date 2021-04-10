@@ -1,0 +1,20 @@
+.center {
+    margin: auto;
+    width: 50%;
+  }
+
+.logo{
+    display: block;
+    max-width:100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+.picture-preview{
+  max-width:500px;
+  max-height: 500px;
+  width: auto;
+  height: auto;
+  row-gap:20px;
+}

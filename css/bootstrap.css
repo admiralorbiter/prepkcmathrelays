@@ -23,12 +23,13 @@
   --gray: #818387;
   --gray-dark: #343a40;
   --primary: #F7E214;
-  --secondary: #56B2CB;
+  --secondary: #00334C;
+  --thirdary: #56B2CB;
   --success: #5cc72a;
   --info: #00e5ff;
   --warning: #f6c343;
   --danger: #ff1744;
-  --light: #E9E9FF;
+  --light: #f2f2f2;
   --dark: black;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -1697,11 +1698,11 @@ fieldset:disabled a.btn {
 
 .btn-dark {
   color: #ffffff;
-  background-color: black;
+  background-color: #00334C;
   border-color: black; }
   .btn-dark:hover {
     color: #ffffff;
-    background-color: black;
+    background-color: #56B2CB;
     border-color: black; }
   .btn-dark:focus, .btn-dark.focus {
     box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
@@ -2240,7 +2241,7 @@ button.bg-danger:focus {
   background-color: #e3002c !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #f2f2f2 !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,

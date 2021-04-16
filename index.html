@@ -13,19 +13,25 @@
     <!-- Bootstrap CSS / Color Scheme -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Navigation bar-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
 
-<!--Header Section-->
-<section class="bg-gradient pt-5 pb-6">
+<!--Navigation bar-->
+<div id="nav-placeholder"></div>
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
+
+<!--Features Section-->
+<section class="bg-gradient pt-1 pb-6">
     <div class="container">
-        <div class="row">
-            <div class="col-12 d-flex flex-row align-items-center justify-content-between">
-                <a href="/"><img class="logo" src="assets/logoNavy.png" alt="PREP-KC Logo"></a>
-                <a href="temp.html" class="btn btn-light" target="_blank">Info</a>
-            </div>
-        </div>
-        <div class="row mt-6">
+        <div class="row mt-3">
             <div class="col-md-8 mx-auto text-center">
                 <h1>The Annual PREP-KC Math Relays</h1>
                 <p class="lead mb-5">The PREP-KC Regional High School Math Relays Virtual Competition for Grades 5-7 will be held May 1st 2021.</p>
@@ -161,23 +167,14 @@
         </div>
     </div>
 </section>
-<!--footer-->
-<footer class="py-5 bg-light">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href="http://www.prepkc.org/">PREPKC.org</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="row my-2">
-            <div class="col-md-4 mx-auto text-muted text-center small-xl">
-                &copy; 2021 PREP-KC - All Rights Reserved
-            </div>
-        </div>
-    </div>
-</footer>
+<!--Footer-->
+<div id="footer-placeholder"></div>
+<script>
+$(function(){
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+<!--end of Footer-->
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

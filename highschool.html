@@ -1,47 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>PREP-KC Math Relays</title>
-    <meta name="description" content="PREP-KC Math Relays"/>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon-32x32.png"/>
+    <meta name="description" content="PREP-KC Math Relays" />
 
     <!--Google font-->
-    <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS / Color Scheme -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!--Navigation bar-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
+    <section class="pt-3 pb-3">
+      <div class="container">
+        <h1>High School Math Relays</h1>
+        <h3>
+          Participants will compete in one individual, multi-round event
+          covering content from various math topics and one team competition
+          that consists of various problem-solving events.
+        </h3>
+      </div>
+    </section>
 
-<!--Navigation bar-->
-<div id="nav-placeholder"></div>
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
-<!--end of Navigation bar-->
+    <section class="pb-3">
+      <div class="container">
+        <img
+          src="assets/2.JPG"
+          alt="Students"
+          class="float-left picture-preview-small pr-3"
+        />
+        <span class="text-thirdary">There are levels to it</span>
+        <h3>Math Benchmarking</h3>
+        <p>
+          Students will be placed in individual competitions based on their
+          enrolled fall semester math course. Team competitions will consist of
+          mixed groups (ages and course levels).
+        </p>
+      </div>
+    </section>
 
-<!--Footer-->
-<div id="footer-placeholder"></div>
-<script>
-$(function(){
-  $("#footer-placeholder").load("footer.html");
-});
-</script>
-<!--end of Footer-->
+    <section class="pt-7">
+      <div class="container">
+        <img
+          src="assets/3.JPG"
+          alt="Students"
+          class="float-right picture-preview-small pr-3"
+        />
+        <span class="text-thirdary">Fame and Fortune</span>
+        <h3>Scholarship for Sigma</h3>
+        <p>
+          Awards are provided to the top five individual winners from each level
+          of the competition. A $500 scholarship, awarded to the winner of the
+          Sigma division of the high school competition.
+        </p>
+      </div>
+    </section>
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+    <section class="pt-7">
+      <div class="container">
+        <img
+          src="assets/5.JPG"
+          alt="Students"
+          class="float-left picture-preview-small pr-4"
+        />
+        <span class="text-thirdary">TEAMWORK MAKES THE DREAM WORK</span>
+        <h3>New Team Events</h3>
+        <p>4 Students per team</p>
+        <ul>
+          <li>
+            Amazing race - Competitions will be set up in individual breakout
+            rooms and move from simple to more complex problems-- students will
+            move from one level to the next as they complete the problem-solving
+            task.
+          </li>
+          <li>
+            Escape room – Students will work together solving problems to crack
+            a code and solve the mystery.
+          </li>
+          <li>
+            <u>Computational Thinking</u> - Combining math and algorithmic
+            logic, students will need to use their wits to solve these puzzles.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-6">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center text-md-left text-secondary">Awards</h2>
+          <p>
+            The top four students in each event will be awarded medals and a
+            certificate. The school that scores the most points will receive the
+            math relays champion traveling trophy. The district that receives
+            the highest percentage of points based on number of participants
+            will also receive a trophy. The winners are determined by a
+            calculation of points earned in each competition.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <div id="footer-placeholder"></div>
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!--end of Footer-->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

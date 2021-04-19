@@ -1,3 +1,9 @@
+<script>
+if (document.cookie.indexOf("MathRelaySession=Valid") == -1) {
+    location.href = "/login.html";
+}
+</script>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,7 +13,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>PREP-KC Math Relays</title>
+    <title>Backend</title>
     <link rel="shortcut icon" type="image/jpg" href="assets/favicon-32x32.png"/>
     <meta name="description" content="PREP-KC Math Relays" />
 
@@ -33,6 +39,8 @@
       });
     </script>
     <!--end of Navigation bar-->
+    <h1>Backend</h1>
+    <p>Here you can access all the scoreboards and games</p>
 
     <!--Footer-->
     <div id="footer-placeholder"></div>

@@ -1,53 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>PREP-KC Math Relays</title>
-    <meta name="description" content="PREP-KC Math Relays"/>
+    <link rel="shortcut icon" type="image/jpg" href="assets/favicon-32x32.png"/>
+    <meta name="description" content="PREP-KC Math Relays" />
 
     <!--Google font-->
-    <link href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS / Color Scheme -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <!--Navigation bar-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
 
-<!--Navigation bar-->
-<div id="nav-placeholder"></div>
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
-<!--end of Navigation bar-->
-
-<!--Features Section-->
-<section class="bg-gradient pt-1 pb-6">
-    <div class="container">
+    <!--Features Section-->
+    <section class="bg-gradient pt-1 pb-6">
+      <div class="container">
         <div class="row mt-3">
-            <div class="col-md-8 mx-auto text-center">
-                <h1>The Annual PREP-KC Math Relays</h1>
-                <p class="lead mb-5">The PREP-KC Regional High School Math Relays Virtual Competition for Grades 5-7 will be held May 1st 2021.</p>
-                <!--<a href="https://github.com/LeaVerou/prism/" class="btn btn-success svg-icon">
+          <div class="col-md-8 mx-auto text-center">
+            <h1>The Annual PREP-KC Math Relays</h1>
+            <p class="lead mb-5">
+              The PREP-KC Regional High School Math Relays Virtual Competition
+              for Grades 5-7 will be held May 1st 2021.
+            </p>
+            <!--<a href="https://github.com/LeaVerou/prism/" class="btn btn-success svg-icon">
                     <em class="mr-2" data-feather="github"></em>
                     Contribute
                 </a>-->
-            </div>
-            <div class="center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/0sFVpRCTveo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+          </div>
+          <div class="center">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/0sFVpRCTveo"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<!--Features Section
+    <!--Features Section
 <section class="py-6">
     <div class="container">
         <div class="row">
@@ -131,7 +148,7 @@ $(function(){
     </div>
 </section>
 -->
-<!--Used By Section
+    <!--Used By Section
 <section class="pb-6">
     <div class="container">
         <div class="row">
@@ -149,38 +166,48 @@ $(function(){
     </div>
 </section>
 -->
-<section class="pb-6">
-    <div class="container">
+    <section class="pt-3">
+      <div class="container">
+        <p class="lead">
+          These annual Math Relays provide students from PREP-KC’s
+          partner-districts the opportunity to demonstrate their math and
+          problem solving skills, a critical component of their college and
+          career preparation.
+        </p>
+      </div>
+    </section>
+    <section class="pb-6">
+      <div class="container">
         <div class="row mt-5">
-            <div class="col-md-6 mb-4">
-                <img class="picture-preview" src="assets/pic1.JPG" alt="Students"/>
-            </div>
-            <div class="col-md-6 mb-4">
-                <img class="picture-preview" src="assets/pic2.JPG" alt="Students"/>
-            </div>
-            <div class="col-md-6 mb-4">
-                <img class="picture-preview" src="assets/pic3.JPG" alt="Students"/>
-            </div>
-            <div class="col-md-6 mb-4">
-                <img class="picture-preview" src="assets/pic4.JPG" alt="Students"/>
-            </div>
+          <div class="col-md-6 mb-4">
+            <img class="picture-preview" src="assets/pic1.JPG" alt="Students" />
+          </div>
+          <div class="col-md-6 mb-4">
+            <img class="picture-preview" src="assets/pic2.JPG" alt="Students" />
+          </div>
+          <div class="col-md-6 mb-4">
+            <img class="picture-preview" src="assets/pic3.JPG" alt="Students" />
+          </div>
+          <div class="col-md-6 mb-4">
+            <img class="picture-preview" src="assets/pic4.JPG" alt="Students" />
+          </div>
         </div>
-    </div>
-</section>
-<!--Footer-->
-<div id="footer-placeholder"></div>
-<script>
-$(function(){
-  $("#footer-placeholder").load("footer.html");
-});
-</script>
-<!--end of Footer-->
+      </div>
+    </section>
+    <!--Footer-->
+    <div id="footer-placeholder"></div>
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!--end of Footer-->
 
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.15.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

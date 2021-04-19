@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  BODY {
+    background: #444;
+  }
+  
+  .safe {
+    background: #888;
+    width: 512px;
+    height: 512px;
+    margin: auto;
+    padding: 16px;
+  }
+  
+  .safe-part {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    transform-origin: left;
+    border-radius: 16px;
+  }
+  
+  .contents {
+    background: #444;
+  }
+  
+  .door {
+    background: #bbb;
+    padding: 32px;
+    transition: 1s ease-in;
+  }
+  
+  .doorbehind {
+    background: #bbb;
+    width: 192px;
+    transition: 1s ease-out;
+    transform: scaleX(0);
+    cursor: pointer;
+  }
+  
+  .handle {
+    float: right;
+    margin-top: 184px;
+    background: #ddd;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    transition: 1s transform ease-in;
+    transform: rotate(45deg);
+  }
+  
+  .bar {
+    position: relative;
+    width: 16px;
+    height: 96px;
+    border-radius: 8px;
+    background: #ddd;
+    
+    top: -24px;
+    left: 16px;
+  }
+  
+  .input {
+    margin-top: 192px;
+    text-align: center;
+    height: 32px;
+    margin-right: 72px;
+  }
+  
+  .input > * {
+    height: 100%;
+    font-size: 18px;
+  }
+  
+  .lamp {
+    display: inline-block;
+    margin-right: 16px;
+    background: #f22;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+  }
+  
+  input {
+    background: #222;
+    border: 2px solid gray;
+    color: white;
+  }
+  
+  @keyframes door-locked {
+    0% {
+      transform: scaleX(1);
+    }
+    25% {
+      transform: scaleX(0.99);
+    }
+    50% {
+      transform: scaleX(1);
+    }
+    75% {
+      transform: scaleX(0.99);
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  
+  @keyframes lamp-validation {
+    0% {
+      background: #222;
+    }
+    49% {
+      background: #222;
+    }
+    50% {
+      background: #ff4;
+    }
+    100% {
+      background: #ff4;
+    }
+  }

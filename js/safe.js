@@ -7,20 +7,9 @@ common = ""
 
 loadstate = 0
 
-function hashCode(str) {
-  var hash = 0, i, chr;
-  if (str.length === 0) return hash;
-  for (i = 0; i < str.length; i++) {
-    chr   = str.charCodeAt(i);
-    hash  = (((hash << 5) - hash) + chr)%32;
-    hash |= 0;
-  }
-  return hash;
-};
-
 function SetContents(url){
   
-  contents.src = url ? url : "https://github.com/EntityinArray/safecontents/blob/master/cheater.png?raw=true"
+  contents.src = url ? url : "cheater.png"
   if(!url){
     valid = false;
     lamp.style.animation = ""
@@ -64,27 +53,12 @@ test.onclick = function(){
   if(busy || open || loadstate != 0) return;
   
   lamp.style.animation = "lamp-validation 500ms linear infinite"
-  console.log(pass.value)
-  let hash = hashCode(pass.value)
-  
-  secret = "https://github.com/EntityinArray/safecontents/blob/master/secret/"+pass.value+".png?raw=true"
-  common = "https://github.com/EntityinArray/safecontents/blob/master/common/"+hash+".png?raw=true"
+
+  secret = "assets/"+pass.value+".JPG?raw=true"
+  common = "assets/"+pass.value+".JPG?raw=true"
   
   loadstate = 1
   SetContents(secret)
-  
-  /* Does not work due to CORS
-  Promise.all([fetch(secret),fetch(common)])
-  .then((resps) => {
-    if(resps[1].ok) return SetContents(secret);
-    if(resps[2].ok) return SetContents(common);
-    
-    SetContents()
-  })
-  .catch((err) => {
-    console.error(err);
-    SetContents()
-  })*/
   
 }
 

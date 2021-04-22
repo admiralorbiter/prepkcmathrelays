@@ -5,6 +5,11 @@
   BODY {
     background: #444;
   }
+
+  h1, p{
+      color: white;
+      text-align: center;
+  }
   
   .safe {
     background: #888;

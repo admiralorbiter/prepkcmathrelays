@@ -1,0 +1,24 @@
+img {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+
+#slide1
+{
+    z-index: 0;
+}
+
+#imga
+{
+    z-index: 20;
+    margin-left:26%;
+    margin-top: 30%;
+    width: 100px;
+    height: 100px;
+
+}

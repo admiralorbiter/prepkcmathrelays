@@ -7,7 +7,7 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "test" && password === "test") {
+    if (username === "mathrelayteam" && password === "PREPKC2021") {
         var sessionTimeout = 1; //hours
         var loginDuration = new Date();
         loginDuration.setTime(loginDuration.getTime()+(sessionTimeout*60*60*1000));

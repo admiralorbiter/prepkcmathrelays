@@ -6,10 +6,17 @@
     background: #444;
   }
 
-  h1, p{
+  h1{
       color: white;
       text-align: center;
   }
+
+  p{
+    color: white;
+    text-align: left;
+  }
+  
+  .tab { margin-left: 40px; }
   
   .safe {
     background: #888;

@@ -1,0 +1,45 @@
+<html>
+    <!--https://codepen.io/entityinarray/pen/OJLWEXa-->
+    <head>
+        <link rel="stylesheet" href="../css/safe.css" />
+    </head>
+    <body>
+        <h1>Safe</h1>
+        <p>Instructions: You must type in your code with dashes between the digits for instance try 1-1-1-1</p>
+        <div class="safe">
+            <div class="safe-part contents">
+                <img id="contents" class="safe-part">
+            </div>
+        <div id="doorbehind" class="doorbehind safe-part">
+            
+        </div>
+        <div id="door" class="safe-part door">
+            <div id="handle" class="handle">
+            <div class="bar">
+                
+            </div>
+            </div>
+            <div class="input">
+            <div id="lamp" class="lamp">
+            </div>
+            <input id="pass">
+            <button id="test">Check</button>
+            </div>
+        </div>
+        </div>
+        <h1>Cracking the Safe</h1>
+        <p>The combo for the safe can be found by completing the order of operations for the following problems. Your safe cracker was able to
+            solve the first one. Can you solve the rest?
+        </p>
+        <p>Example:</p>
+        <p>6 ÷ 2(1+2)</p>
+            <p class="tab">Step 1: 6 / 2(1+2). Simplify (1+2) first which simplifies to 3</p>
+            <p class="tab">Step 2: 6/2(3). Simplify 6/2 next which simplifies to 3</p>
+            <p class="tab">Step 3: 3(3). Simplify 3*3 next which simplifes to 9</p>
+            <p class="tab">Combo: 3, 3, 9</p>
+
+        <p>Problem 1:  (19 - 7) ÷ 4 + 11</p>
+        <p>Problem 2: 2(9 - 2 + 3) ÷ 4</p>
+        <script src="../js/safe.js"></script>
+    </body>
+</html>

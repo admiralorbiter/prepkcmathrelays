@@ -5,14 +5,32 @@
   <meta charset="utf-8">
 
   <title>Team</title>
-  <meta name="description" content="Team">
-  <meta name="author" content="SitePoint">
+  <!--Google font-->
+  <link
+    href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap CSS / Color Scheme -->
+  <link rel="stylesheet" href="../css/bootstrap.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+
+  
+  <!--Navigation bar-->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 
 </head>
 
 <body>
-
+  <!--Navigation bar-->
+  <div id="nav-placeholder"></div>
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
     <h1>The Great Heist</h1>
     <p>There are four teammates for this heist. You have to associate them with their respective nicknames, weekday they can work and 
         their speciality to answer this question: 

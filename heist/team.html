@@ -1,51 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
 
-  <title>Team</title>
-  <!--Google font-->
-  <link
-    href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
-    rel="stylesheet"
-  />
+    <title>Team</title>
+    <!--Google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap CSS / Color Scheme -->
-  <link rel="stylesheet" href="../css/bootstrap.css" />
-  <link rel="stylesheet" href="../css/style.css" />
+    <!-- Bootstrap CSS / Color Scheme -->
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/style.css" />
 
-  
-  <!--Navigation bar-->
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!--Navigation bar-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
 
-
-</head>
-
-<body>
-  <!--Navigation bar-->
-  <div id="nav-placeholder"></div>
-  <script>
-    $(function () {
-      $("#nav-placeholder").load("nav.html");
-    });
-  </script>
-  <!--end of Navigation bar-->
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
     <h1>The Great Heist</h1>
-    <p>There are four teammates for this heist. You have to associate them with their respective nicknames, weekday they can work and 
-        their speciality to answer this question: 
+    <p>
+      There are four teammates for this heist. You have to associate them with
+      their respective nicknames, weekday they can work and their specialty in
+      order to setup your team.
     </p>
-<ol>
-  <li>Neither Aaron nor the the safe cracker were called “The Adventurer”</li>
-  <li>Zuber works the day after Hernando and the day before “The Mountain”</li>
-  <li>Either Amira speciality is safe cracking or they are known as “The Wise”</li>
-  <li>The hacker is either Aaron or works on Wednesday</li>
-  <li>Friday and Tuesday weren’t good days for hacking.</li>
-  <li>“The Wise”’s work day was two days after the safecrackers day.</li>
-  <li>“The adventurer” works the day before the electrician.</li>
-</ol>
+    <hr />
+    <div class="row">
+      <div class="col-sm">
+        <ol>
+          <li>
+            Neither Aaron nor the the safe cracker were called “The Adventurer”
+          </li>
+          <li>
+            Zuber works the day after Hernando and the day before “The Mountain”
+          </li>
+          <li>
+            Either Amira specialty is safe cracking or they are known as “The
+            Wise”
+          </li>
+          <li>The hacker is either Aaron or works on Wednesday</li>
+          <li>Friday and Tuesday weren’t good days for hacking.</li>
+          <li>
+            “The Wise”’s work day was two days after the safecrackers day.
+          </li>
+          <li>“The adventurer” works the day before the electrician.</li>
+        </ol>
 
-<img src="../assets/teambox.PNG">
+        <img src="../assets/teambox.PNG" />
 
-</body>
+        <br />
+      </div>
+      <div class="col-sm">
+        <table>
+          <tr>
+            <th>People</th>
+          </tr>
+          <tr>
+            <td>Aaron</td>
+          </tr>
+          <tr>
+            <td>Amira</td>
+          </tr>
+          <tr>
+            <td>Hernando</td>
+          </tr>
+          <tr>
+            <td>Zuber</td>
+          </tr>
+        </table>
+        <br />
+        <table>
+          <tr>
+            <th>Nick Names</th>
+          </tr>
+          <tr>
+            <td>The Wise</td>
+          </tr>
+          <tr>
+            <td>The Adventurer</td>
+          </tr>
+          <tr>
+            <td>The Princess</td>
+          </tr>
+          <tr>
+            <td>The Mountain</td>
+          </tr>
+        </table>
+        <br />
+        <table>
+          <tr>
+            <th>Specialty</th>
+          </tr>
+          <tr>
+            <td>Smooth Talking</td>
+          </tr>
+          <tr>
+            <td>Electronics</td>
+          </tr>
+          <tr>
+            <td>Hacking</td>
+          </tr>
+          <tr>
+            <td>Safe Cracking</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>

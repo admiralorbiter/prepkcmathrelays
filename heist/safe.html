@@ -1,11 +1,15 @@
 <html>
     <!--https://codepen.io/entityinarray/pen/OJLWEXa-->
     <head>
+        <title>Cracking the Safe</title>
+        <link rel="stylesheet" href="../css/bootstrap.css" />
         <link rel="stylesheet" href="../css/safe.css" />
     </head>
     <body>
         <h1>Safe</h1>
-        <p>Instructions: You must type in your code with dashes between the digits for instance try 1-1-1-1</p>
+        <p>Instructions: You must type in your code with dashes between the digits for instance try 1-1-1-1. Once you have typed in your code click check. If you get a green dot you can
+            click the handle to unlock!
+        </p>
         <div class="safe">
             <div class="safe-part contents">
                 <img id="contents" class="safe-part">
@@ -31,15 +35,24 @@
         <p>The combo for the safe can be found by completing the order of operations for the following problems. Your safe cracker was able to
             solve the first one. Can you solve the rest?
         </p>
+        <div class="groove">
         <p>Example:</p>
-        <p>6 ÷ 2(1+2)</p>
+        <h1>6 ÷ 2(1+2)</h1>
             <p class="tab">Step 1: 6 / 2(1+2). Simplify (1+2) first which simplifies to 3</p>
             <p class="tab">Step 2: 6/2(3). Simplify 6/2 next which simplifies to 3</p>
             <p class="tab">Step 3: 3(3). Simplify 3*3 next which simplifes to 9</p>
-            <p class="tab">Combo: 3, 3, 9</p>
-
-        <p>Problem 1:  (19 - 7) ÷ 4 + 11</p>
-        <p>Problem 2: 2(9 - 2 + 3) ÷ 4</p>
+            <p class="tab">Combo: 3-3-9</p>
+        </div>
+        <br>
+        <div class="groove">
+        <p>Problem 1:</p>
+        <h1>(19 - 7) ÷ 4 + 11</h1>
+        </div>
+        <br>
+        <div class="groove">
+        <p>Problem 2:</p>
+        <h1>2(9 - 2 + 3) ÷ 4</h1>
+        </div>
         <script src="../js/safe.js"></script>
     </body>
 </html>

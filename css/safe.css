@@ -11,9 +11,14 @@
       text-align: center;
   }
 
+  div.groove{
+    border-style: groove;
+  }
+
   p{
     color: white;
     text-align: left;
+    font-size: 18px;
   }
   
   .tab { margin-left: 40px; }

@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Exploring the Museum Floor</title>
+  <!--Google font-->
+  <link
+    href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap CSS / Color Scheme -->
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+
+  
+  <!--Navigation bar-->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+    <script>
+    $(function () {
+        $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
+    <div class="p-3">
+    <h1>Exploring the Museum Floor PLans</h1>
+    <p>Below you are given various floor plans for the museum. Each each floor plan you need to answer the central question using what you have learned with geometry.
+    </p>
+
+    <h1>Floor Plan Basement</h1>
+    <p>Below is the bottom floor of the museum. You need to answer 2 questions that are necessary for the heist. First, <u>You need the total area of the bottom floor</u>. As you can see the bottom floor is
+        is composed of several triangles and a <span style="color:red;">perfect square</span> for the entrance along with a side rectangle that holds the stair case the the first floor. Second, <u>you will need to calculate the the total
+        length of the yellow line segment.</u> That line represents the exact path that aren't covered by cameras. This will allow you to get from the entrance to the stairs without detection. <span style="color:blueviolet">Please note that when you
+        calculate the area of the room with the stairs, you need to include the stairs in the calculation. That room is a rectangle of the same size for each floor.</span>
+    </p>
+    <img src="../../assets/FloorPlan1.png" width="1300" height="1000"/>
+
+    <h1>Floor Plan Level 1</h1>
+    <p>Below is the first floor of the museum. You need to answer one question that is necessary for the heist. <u>You need the total area of the floor.</u> as you can see the floor is composed of
+        several segments. The first room you enter from the stairs is the same size as the room below. <span style="color:red;">The triangle room's sides all have the same length. </span>The long hallway is <span style="color:red;">twice the length</span> and area of the shorter hallway.
+    </p>
+    <img src="../../assets/FloorPlan2.png" width="1300" height="1000"/>
+    <h1>Floor Plan Level 2</h1>
+    <p>Below is the second floor of the museum. ou need to answer 2 questions that are necessary for the heist. First, <u>you need the total area of the floor.</u> as you can see the floor is composed of
+        several segments. The first room you enter from the stairs is the same size as the room below. <span style="color:red;"> Second, you will need to calculate the the total length of the yellow line segment.
+        This is the path you can take that will be on the edge of the rooms in order to bypass security.
+      </p>
+      <img src="../../assets/FloorPlan3.png" width="1300" height="1000"/>
+  </div>
+</body>
+</html>

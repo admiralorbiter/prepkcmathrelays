@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Introduction</title>
+  <title>Scorecard 1</title>
   <!--Google font-->
   <link
     href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
@@ -12,8 +12,8 @@
   />
 
   <!-- Bootstrap CSS / Color Scheme -->
-  <link rel="stylesheet" href="../css/bootstrap.css" />
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
 
   
   <!--Navigation bar-->
@@ -38,11 +38,16 @@
     });
   </script>
   <!--end of Navigation bar-->
-
-    <h1>The Great Heist</h1>
-    <p>You have been selected by a museum to test their security and legally pull off the heist of the century. It will be 
-        up to build a team, solve mystery's and unlock the safe combos.
+  <div class="p-3">
+    <h1>Scorecard</h1>
+    <p>Below your proctor is going to keep track of your progress. Each time you have an answer to a prompt you need to
+      confirm that answer with your proctor. If it is right, the box will turn green. <span style="color:red;">Beware through,</span> 
+      wrong guesses will count against you!
     </p>
-
+    <br>
+    Click here to <button onClick="window.location.reload();">Refresh Page</button> to update the scorecard.
+    <br>
+    <iframe src="https://docs.google.com/spreadsheets/d/14aAQFswdoA3ervFBJyjAUGvGIgHj_wEYBAZHTSbAo40/htmlembed/sheet?gid=0&range=B1:N20" width="520" height="425"></iframe>
+</div>
 </body>
 </html>

@@ -1,0 +1,93 @@
+<html>
+    <!--https://codepen.io/entityinarray/pen/OJLWEXa-->
+    <head>
+        <title>Cracking the Safe</title>
+       <!---<link
+        href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+        rel="stylesheet"/>-->
+        <link rel="stylesheet" href="../../css/bootstrap.css" />
+        <link rel="stylesheet" href="../../css/safe.css" />
+        <link rel="stylesheet" href="../../css/style.css" />
+
+        <!--Navigation bar-->
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+        <script>
+            $(function () {
+            $("#nav-placeholder").load("nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+        <h1>Safe</h1>
+        <p>Instructions: You must type in your code with dashes between the digits for instance try 1-1-1-1. Once you have typed in your code click check. If you get a green dot you can
+            click the handle to unlock!
+        </p>
+        <div class="safe">
+            <div class="safe-part contents">
+                <img id="contents" class="safe-part">
+            </div>
+        <div id="doorbehind" class="doorbehind safe-part">
+            
+        </div>
+        <div id="door" class="safe-part door">
+            <div id="handle" class="handle">
+            <div class="bar">
+                
+            </div>
+            </div>
+            <div class="input">
+            <div id="lamp" class="lamp">
+            </div>
+            <input id="pass">
+            <button id="test">Check</button>
+            </div>
+        </div>
+        </div>
+        <h1>Cracking the Safe</h1>
+        <p>The combo for the safe can be found by completing the order of operations for the following problems. Your safe cracker was able to
+            solve the first one. Can you solve the rest?
+        </p>
+        <div class="groove">
+        <p>Example:</p>
+        <h1>6 ÷ 2(1+2)</h1>
+            <p class="tab">Step 1: 6 / 2(1+2). Simplify (1+2) first which simplifies to 3</p>
+            <p class="tab">Step 2: 6/2(3). Simplify 6/2 next which simplifies to 3</p>
+            <p class="tab">Step 3: 3(3). Simplify 3*3 next which simplifies to 9</p>
+            <p class="tab">3 Number Combo: 3-3-9</p>
+        </div>
+        <br>
+        <div class="groove">
+        <p>Problem 1:</p>
+        <h1>(19 - 7) ÷ 4 + 11</h1>
+        <p class="tab">3 Number Combo:</p>
+        </div>
+        <br>
+        <div class="groove">
+        <p>Problem 2:</p>
+        <h1>2(9 - 2 + 3) ÷ 4</h1>
+        <p class="tab">4 Number Combo:</p>
+        </div>
+        <br>
+        <div class="groove">
+        <p>Problem 3:</p>
+        <h1>(31 - 11) ÷ 5 + 2</h1>
+        <p class="tab">3 Number Combo:</p>
+        </div>
+        <br>
+        <div class="groove">
+        <p>Problem 4:</p>
+        <h1>5 × 4 - 2 × (16 ÷ 4) ÷ 2 + 9</h1>
+        <p class="tab">6 Number Combo:</p>
+        </div>
+        <br>
+        <div class="groove">
+        <p>Problem 5:</p>
+        <h1>10 ÷ (20 ÷ 4 × 5 ÷ 5) × 8 - 2</h1>
+        <p class="tab">6 Number Combo:</p>
+        </div>
+        <script src="../../js/safe.js"></script>
+    </body>
+</html>

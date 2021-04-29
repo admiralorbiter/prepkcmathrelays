@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Introduction</title>
+  <!--Google font-->
+  <link
+    href="https://fonts.googleapis.com/css?family=K2D:300,400,500,700,800"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap CSS / Color Scheme -->
+  <link rel="stylesheet" href="../../css/bootstrap.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+
+  
+  <!--Navigation bar-->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SX4L7FFL6K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SX4L7FFL6K');
+  </script>
+</head>
+
+<body class>
+  <!--Navigation bar-->
+  <div id="nav-placeholder"></div>
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("nav.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
+<div class="p-3">
+    <h1>The Great Heist</h1>
+    <p>You have been selected by a museum to test their security and legally pull off the heist of the century. It will be 
+        up to build a team, solve mystery's and unlock the safe combos revealing the hidden treasures.
+    </p>
+    <img src="../../assets/missingpainting.jpg" width="800" height="600" class="rounded mx-auto d-block">
+  </div>
+</body>
+</html>

@@ -9,8 +9,7 @@
   h1{
       color: white;
       text-align: center;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
+      font-family:'Courier New', Courier, monospace;
 
   div.groove{
     border-style: groove;

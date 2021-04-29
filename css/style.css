@@ -29,3 +29,10 @@
 
 .text-thirdary {
   color: #56B2CB !important; }
+
+.pic-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}

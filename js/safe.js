@@ -54,8 +54,8 @@ test.onclick = function(){
   
   lamp.style.animation = "lamp-validation 500ms linear infinite"
 
-  secret = "http://pathwaystotechnology.net/assets/"+pass.value+".jpg?raw=true"
-  common = "http://pathwaystotechnology.net/assets/"+pass.value+".jpg?raw=true"
+  secret = "http://prepkcmathrelays.org/assets/"+pass.value+".jpg?raw=true"
+  common = "http://prepkcmathrelays.org/assets/"+pass.value+".jpg?raw=true"
   
   loadstate = 1
   SetContents(secret)
